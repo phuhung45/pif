@@ -1,0 +1,23 @@
+ul li::before {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 14px;
+    top: 4px;
+    left: -22px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-right: 3px solid #179046;
+    border-bottom: 3px solid #179046;
+    position: absolute;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+  }
+
+  .container{
+    width: 100%;
+  }
